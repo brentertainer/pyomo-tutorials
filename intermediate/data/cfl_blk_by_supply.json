@@ -1,0 +1,28 @@
+{
+    "supply_sites": ["1", "2", "3"],
+    "demand_sites": ["a", "b", "c", "d", "e"],
+    "supply_data": {
+        "1": {
+            "variable_cost": {"a":  4, "b":  5, "c":  6, "d":  8, "e": 10},
+            "fixed_cost": 1000,
+            "supply": 500
+        },
+        "2": {
+            "variable_cost": {"a":  6, "b":  4, "c":  3, "d":  5, "e":  8},
+            "fixed_cost": 1000,
+            "supply": 500
+        },
+        "3": {
+            "variable_cost": {"a":  9, "b":  7, "c":  4, "d":  3, "e":  4},
+            "fixed_cost": 1000,
+            "supply": 500
+        }
+    },
+    "demand": {
+        "a": 80,
+        "b": 270,
+        "c": 250,
+        "d": 160,
+        "e": 180
+    }
+}

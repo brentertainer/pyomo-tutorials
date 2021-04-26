@@ -1,0 +1,85 @@
+supply_sites:
+- '1'
+- '2'
+- '3'
+demand_sites:
+- a
+- b
+- c
+- d
+- e
+demand:
+  a: 80
+  b: 270
+  c: 250
+  d: 160
+  e: 180
+fixed_cost:
+  '1': 1000
+  '2': 1000
+  '3': 1000
+supply:
+  '1': 500
+  '2': 500
+  '3': 500
+variable_cost:
+  ? !!python/tuple
+  - '1'
+  - a
+  : 4
+  ? !!python/tuple
+  - '1'
+  - b
+  : 5
+  ? !!python/tuple
+  - '1'
+  - c
+  : 6
+  ? !!python/tuple
+  - '1'
+  - d
+  : 8
+  ? !!python/tuple
+  - '1'
+  - e
+  : 10
+  ? !!python/tuple
+  - '2'
+  - a
+  : 6
+  ? !!python/tuple
+  - '2'
+  - b
+  : 4
+  ? !!python/tuple
+  - '2'
+  - c
+  : 3
+  ? !!python/tuple
+  - '2'
+  - d
+  : 5
+  ? !!python/tuple
+  - '2'
+  - e
+  : 8
+  ? !!python/tuple
+  - '3'
+  - a
+  : 9
+  ? !!python/tuple
+  - '3'
+  - b
+  : 7
+  ? !!python/tuple
+  - '3'
+  - c
+  : 4
+  ? !!python/tuple
+  - '3'
+  - d
+  : 3
+  ? !!python/tuple
+  - '3'
+  - e
+  : 4
