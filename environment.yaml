@@ -3,7 +3,6 @@ name: pyomo-tutorials
 channels:
   - gurobi
   - conda-forge
-  - https://conda.anaconda.org/gurobi
   - defaults
 dependencies:
   - python=3.8.10
