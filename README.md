@@ -23,8 +23,8 @@ using Anaconda 4.10.1 and exported it to [this yaml file](environment.yaml). The
 environment may be built from file and activated as follows.
 ```
 conda env create -f environment.yaml
-conda activate pyomo-examples
+conda activate pyomo-tutorials
 ```
 I have only tested this on Fedora 34 with x86\_64 architecture. I do not guarantee that this
 environment will work across all operating systems and architectures, but it should at the very
-least serve as a basis for support to get these codes working on your system.
+least serve as a basis of support to get these codes working on your system.
