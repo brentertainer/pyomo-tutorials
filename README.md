@@ -1,8 +1,8 @@
 # Pyomo Examples
 
 This repository contains variety of examples of math programming models implemented primarily with
-the *Py*thon *O*ptimization *M*odeling *O*bjects package and written into Jupyter notebooks. A few
-examples also compare and contrast `pyomo`-based development with `gurobipy`-based development.
+the **Py**thon **O**ptimization **M**odeling **O**bjects package and written into Jupyter notebooks.
+A few examples also compare and contrast `pyomo`-based development with `gurobipy`-based development.
 
 ## Recorded Tutorials
 
