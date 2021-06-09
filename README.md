@@ -22,7 +22,7 @@ easy with tools like Anaconda. I have built and tested a conda environment
 using Anaconda 4.10.1 and exported it to [this yaml file](environment.yaml). The Anaconda
 environment may be built from file and activated as follows.
 ```
-conda env create -f environment.yaml
+conda env create --file environment.yaml
 conda activate pyomo-tutorials
 ```
 I have only tested this on Fedora 34 with x86\_64 architecture. I do not guarantee that this
